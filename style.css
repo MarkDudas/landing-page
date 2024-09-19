@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    gap: 300px;
+}
+.first-section{
+    flex: 1;
+    
+}
+.second-section{
+    flex: 1;
+  
+}
+.first-pic{
+    width: 500px;
+    height: auto;
+   
+}
+.sign-up{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.hero-maintext{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondary-hero{
+    color: white;
+    font-size: 18px;
+    
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.information-header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.car-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.information .car-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+ 
+}
+.car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.qoute{
+    padding: 70px;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+.qoute-main{
+    font-size: 36px;
+    font-style: italic;
+}
+.container-signup{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.container-button{
+    background-color: blue;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+.button-signup{
+    margin-left: auto;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+
+}
+.text{
+    flex: 1;
+}
+.footer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
